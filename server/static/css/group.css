@@ -1,0 +1,154 @@
+.chat-group-list-container {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+}
+
+.group-info-container {
+  height: 60px;
+  margin: 5px;
+  padding: 5px 2px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: relative;
+}
+
+.group-info-container:hover {
+  background-color: #e5e5e5;
+}
+
+.group-avator-container {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+
+.group-avator-image-container {
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+}
+
+.group-info-container:hover .group-avator-image-container {
+  box-shadow: 0 0 10px #eee;
+}
+
+.group-avator-image {
+  display: block;
+  border: none;
+  outline: none;
+  height: 40px;
+  width: 40px;
+}
+
+.group-avator-image.no-img {
+  opacity: 0;
+}
+
+.group-text-container {
+  flex: 1;
+  height: 50px;
+  min-width: 0;
+  padding: 5px 2px;
+}
+
+.group-name-container {
+  height: 20px;
+  max-width: 100%;
+  font-size: 16px;
+  line-height: 20px;
+  color: #333;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.group-content-container {
+  height: 20px;
+  max-width: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #aaa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.group-info-container > .button-container {
+  position: absolute;
+  width: 70px; height: 40px;
+  right: 0; bottom: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.group-info-container > .button-container > .button {
+  border: none;
+  background-color: #33f;
+  color: #fff;
+  height: 24px;
+  line-height: 24px;
+  padding: 1px 5px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.add-group-container {
+  height: 60px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.add-group-container:hover {
+  background-color: #e5e5e5;
+}
+
+.add-group-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 20px;
+  background-color: #eee;
+  position: relative;
+}
+
+.add-group-container:hover > .add-group-icon {
+  background-color: #f3f3f3;
+  box-shadow: 0 0 100px #f3f3f3; 
+}
+
+.add-group-icon .icon-align {
+  height: 5px;
+  width: 28px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eee;
+}
+
+.add-group-container:hover > .add-group-icon > .icon-align {
+  background-color: #e5e5e5;
+}
+
+.add-group-icon .icon-vertical {
+  height: 28px;
+  width: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #eee;
+}
+
+.add-group-container:hover > .add-group-icon > .icon-vertical {
+  background-color: #e5e5e5;
+}

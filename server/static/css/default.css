@@ -1,0 +1,66 @@
+@import url('./login.css');
+@import url('./chat.css');
+@import url('./layer.css');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+div, span {
+  box-sizing: border-box;
+}
+
+span {
+  display: inline-block;
+}
+
+ul {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+h1 {
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+button {
+  background: none;
+  border: solid 1px #bbb;
+  border-radius: 2px;
+}
+
+.middle-container {
+  display: grid;
+  place-content: stretch;
+  place-items: center;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
